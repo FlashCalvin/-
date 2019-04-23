@@ -17,6 +17,7 @@ public class Tester1 {
 		}
 		for (int i= 0;i<freqs.length;i++) {
 			System.out.println(i+":"+freqs[i]);
+			
 		}
 		
 		
