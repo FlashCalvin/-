@@ -8,16 +8,16 @@ public class Bonus {
 		int bonus = 87878700;
 		int div = 0;
 	    Scanner scanner = new Scanner(System.in);
-	    System.out.println("¤£¿é¤Jªº¸Ü¨S¦³¼úª÷¥i¥H®³³á:");
+	    System.out.println("ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ü¨Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½Hï¿½ï¿½ï¿½ï¿½:");
 	    String number = scanner.nextLine();
 	    try {
             int n = Integer.parseInt(number);
 		    div = bonus/n;
-		    System.out.println("¨C¤H±o" + div );
+		    System.out.println("ï¿½Cï¿½Hï¿½o" + div );
 	    }catch(ArithmeticException e) {
-	    System.out.println("¿é¤J®æ¦¡¤£¯à¦³¹s¡A§A³o­Ó¥ÕÃ¨");
+	    System.out.println("ï¿½ï¿½Jï¿½æ¦¡ï¿½ï¿½ï¿½à¦³ï¿½sï¿½Aï¿½Aï¿½oï¿½Ó¥ï¿½Ã¨");
 	    }catch(NumberFormatException e){
-		    System.out.println("¶ýªº´¼»Ù¥s§A¿é¤J¼Æ¦rÅ¥¤£À´?");
+		    System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¥sï¿½Aï¿½ï¿½Jï¿½Æ¦rÅ¥ï¿½ï¿½ï¿½ï¿½?");
 	    }
 		    
 	    	
